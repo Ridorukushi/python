@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/JorgeAAV2005/PruebasPython.git'
+                git branch: 'master', url: 'https://github.com/Ridorukushi/python.git'
             }
         }
         stage('Test') {
